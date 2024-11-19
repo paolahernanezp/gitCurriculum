@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    background-color: #335385;
+    width: 100vw;
+    height: 100vh;
+}
+.nameContainer {
+    width: auto;
+    background-color: white;
+    color: #335385;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+}
+.nameContainer h1 {
+    align-self: flex-start;
+}
+
+header .fotoPaola{
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    min-width: none;
+    border-radius: 100%;
+    object-fit: cover;
+}
+header {
+    width: 100vw; 
+    display: flex;
+    height: 300px;
+}
+.contactContainer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px ;
+}
+.contactInfo {
+    padding: 15px 0px;
+}
+.hi {
+    display: flex;
+    flex-direction: row;
+}
+.experiencia {
+    display: flex;
+    flex-direction: column;
+    }
